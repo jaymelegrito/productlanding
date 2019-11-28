@@ -94,7 +94,7 @@ body {
     width: 30em;
     height: 40em;
     top: 60em;
-    left: 3em;
+    left: 6.5em;
     z-index: 30;
 }
 
@@ -103,7 +103,7 @@ body {
     width: 25em;
     height: 30em;
     top: 55em;
-    left: 12em;
+    left: 15em;
     background-color: #F0E2CE;
 }
 
@@ -126,20 +126,11 @@ body {
     }
 }
 
-#box-decor-4 {
-    position: absolute;
-    height: 25em;
-    width: 40em;
-    right: -2em;
-    top: 58em;
-    border: 4px #807E74 solid;
-}
-
 #container-about-text {
     position: absolute;
     width: 30em;
     top: 62em;
-    right: 2em;
+    right: 7em;
 }
 
 .container-services {
