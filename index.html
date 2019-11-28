@@ -33,18 +33,26 @@
                 </div>
             </section>
             <section id="about">
-                <div class="container-images">
-                    <img class="mySlides" src="">
-                    <img class="mySlides" src="">
-                    <img class="mySlides" src="">
-                    <img class="mySlides" src="">
+                <div class="container-about">
+                    <div class="container-images">
+                        <img class="mySlides" src="images/design1.jpg">
+                        <img class="mySlides" src="images/design2.jpg">
+                        <img class="mySlides" src="images/design3.jpg">
+                        <img class="mySlides" src="images/design4.webp">
+                    </div>
+                    <div id="box-decor-3"></div>
+                    <div id="box-decor-4"></div>
+                    <div id="container-about-text">
+                        <p id="about-text">
+                            We specialize in Scanidinavian style interiors.<br>You provide the vision and we'll provide
+                            the design and furnitures.
+                        </p>
+                    </div>
                 </div>
-                <div id="box-decor-3"></div>
-                <div id="container-about-text">
-                    <p id="about-text">
-                        We specialize in Scanidinavian style interiors.<br>You provide the vision and we'll provide
-                        the design and furnitures.
-                    </p>
+            </section>
+            <section id="services">
+                <div class="container-services">
+                    <h2>Services</h2>
                 </div>
             </section>
         </main>
@@ -66,7 +74,7 @@
                 imageIndex++;
                 if (imageIndex > x.length) {imageIndex = 1}
                 x[imageIndex-1].style.display = "block";
-                setTimeout(carousel, 2000);
+                setTimeout(carousel, 2500);
             }
         </script>
 
