@@ -68,7 +68,7 @@ body {
     height: 25em;
     width: 40em;
     left: -2em;
-    top: 18%;
+    top: 7.5em;
     border: 4px #807E74 solid;
 }
 
@@ -85,19 +85,35 @@ body {
     border: 1px green solid;
 }
 
+.container-images {
+    position: absolute;
+    max-width: 500px;
+    width: 30em;
+    height: 20em;
+    top: 60em;
+    left: 5em;
+    z-index: 30;
+    border: 1px red solid;
+}
+
 #box-decor-3 {
     position: absolute;
-    width: 20em;
-    height: 10em;
-    top: 10em;
-    left: 30em;
-    border: 1px pink solid;
+    width: 30em;
+    height: 30em;
+    top: 55em;
+    left: 10em;
+    background-color: #F0E2CE;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
 }
 
 #container-about-text {
     width: 40em;
-    margin-top: 30vh;
-    margin-left: 50%;
+    margin-top: 35vh;
+    margin-left: 55%;
     border: 1px blue solid;
 }
 

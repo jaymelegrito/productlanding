@@ -33,6 +33,12 @@
                 </div>
             </section>
             <section id="about">
+                <div class="container-images">
+                    <img class="mySlides" src="">
+                    <img class="mySlides" src="">
+                    <img class="mySlides" src="">
+                    <img class="mySlides" src="">
+                </div>
                 <div id="box-decor-3"></div>
                 <div id="container-about-text">
                     <p id="about-text">
@@ -45,6 +51,25 @@
         <footer>
 
         </footer>
+
+        <script>
+            var imageIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+
+                for(i=0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                imageIndex++;
+                if (imageIndex > x.length) {imageIndex = 1}
+                x[imageIndex-1].style.display = "block";
+                setTimeout(carousel, 2000);
+            }
+        </script>
+
     </body>
 
 </html>
