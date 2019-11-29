@@ -135,7 +135,38 @@ body {
 
 .container-services {
     height: 100vh;
+    width: 90%;
+    margin: 0 auto;
     border: 1px green solid;
+}
+
+.servImage-box {
+    width: 20em;
+    height: auto;
+    border: 1px red solid;
+}
+
+.servImage-box-1 {
+    position: absolute;
+    margin-top: 5em;
+    right: 10em;
+}
+
+#box-decor-4 {
+    position: absolute;
+    width: 25em;
+    height: 25em;
+    background-color: #F6F3E7;
+}
+
+.servImage-box-2 {
+    position: absolute;
+    margin-top: 17em;
+    right: 15em;
+}
+
+.servImages{
+    width: 100%;
 }
 
 
