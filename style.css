@@ -204,9 +204,8 @@ body {
 }
 
 #projects {
-    background-color: #D3D0C9;
+    background-color: rgba(211, 208, 201, .5);
     height: 150vh;
-    padding-top: 8em;
     
 }
 
@@ -251,6 +250,30 @@ body {
     left: 47em; 
 }
 
+.project-title {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    background: rgba(0,0,0,0.5);
+    height: 2em;
+    width: 100%;
+    padding-top: .2em;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.project:hover .project-title {
+    opacity: 1;
+}
+
+.project-text {
+    text-align: center;
+    padding-top: 1em;
+}
+
+
 /*** Navigation ***/
 #navbar ul {
     display: flex;
@@ -291,4 +314,15 @@ h1 {
 .container-service-text {
     font-size: 2em;
     color: #AFAD9F;
+}
+
+.project-title {
+    font-family: Lato;
+    font-size: 2em;
+}
+
+.project-text {
+    font-family: Lato;
+    color: white;
+    font-size: 2em;
 }
