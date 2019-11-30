@@ -4,6 +4,7 @@
     background: #F6F3E7 / white
     titles: #807E74
     paragraphs: #AFAD9F
+    project border: earth yellow - #D1AB67, PH silver - #B8B0AD, black
 */
 
 /*** Layout ****/
@@ -15,7 +16,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
-    /*background-color: #F6F3E7;*/
+    background-color: white;
     
 }
 
@@ -202,7 +203,53 @@ body {
     width: 15em;
 }
 
+#projects {
+    background-color: #D3D0C9;
+    height: 150vh;
+    padding-top: 8em;
+    
+}
 
+.container-projects {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.project {
+    position: absolute;
+}
+
+.project-images {
+    width: 100%;
+    display: block; /*removes white space at the bottom of every image.*/
+}
+
+.project-1 {
+    border: 8px #D1AB67 solid;
+    width: 37em;
+}
+
+.project-2 {
+    border: 8px white solid;
+    width: 28em;
+    left: 48em;
+}
+
+.project-3 {
+    border: 8px white solid;
+    width: 32em;
+    margin-top: 26em;
+    left: 13em;
+    
+}
+
+.project-4 {
+    border: 8px #D1AB67 solid;
+    width: 22em;
+    margin-top: 21em;
+    left: 47em; 
+}
 
 /*** Navigation ***/
 #navbar ul {
