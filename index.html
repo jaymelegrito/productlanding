@@ -1,139 +1,75 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Open+Sans:400,600,700&display=swap" 
-        rel="stylesheet">
         <link href="style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div class="main-header container-nav">    
-                <div>
-                    <h1>ScandInteriors</h1>
+       <header>
+           <h1>ScandInteriors</h1>
+           <nav>
+               <a id="contact-nav" href="#contact">Contact Us</a>
+           </nav>
+       </header>
+       <main>
+           <section class="container-hero">
+                <p id="hero-text">Let's build your dream Scandinavian home!</p>
+                <button id="button-consult" type="button">Free Consultation</button>
+                <div id="container-hero-image">
+                    <img src="images/design3.jpg" alt="scandinavian style interior with plants and wood flooring">
                 </div>
-                <nav id="navbar">
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <section class="container-hero">
-                <div id="box-decor-1"></div>
-                <img src="https://www.decoraid.com/wp-content/uploads/2018/05/Scandinavian-home-decoration-lighting-ideas.jpg"
-                id="hero-image">
-                <div id="box-decor-2"></div>
-                <div class="container-title">    
-                    <h2 id="hero-title">SCANDINTERIORS</h2>
-                    <p id="hero-text">Design | Furniture | Decor</p>    
+           </section>
+           <section class="container-service">
+                <div id="container-consult">
+                    <img id="service-text" src="images/consult.png" alt="consulting icon">
+                    <p id="service-text">Consultation</p>
                 </div>
-            </section>
-            <section id="about">
-                <div class="container-about">
-                    <div class="container-images">
-                        <img class="mySlides" src="images/design1.jpg">
-                        <img class="mySlides" src="images/design2.jpg">
-                        <img class="mySlides" src="images/design3.jpg">
-                        <img class="mySlides" src="images/design4.webp">
-                    </div>
-                    <div id="box-decor-3"></div>
-                    <div id="container-about-text">
-                        <p id="about-text">
-                            We specialize in Scanidinavian style interiors.<br>You provide the vision and we'll provide
-                            the design and furnitures.
-                        </p>
-                    </div>
+                <div id="container-deliver">
+                    <img id="service-image" src="images/shipped.png" alt="shipping icon">
+                    <p id="service-text">Delivery & Installation</p>
                 </div>
-            </section>
-            <section id="services">
-                <div class="container-service-text">
-                    <p>We'll guide you throughout the whole process. From consultation to implementation
-                        we'll be there for you. 
-                    </p>
+                <div id="container-support">
+                    <img id="service-image" src="images/support.png" alt="support icon">
+                    <p id="service-text">After Sales Support</p>
                 </div>
-                <div class="container-services">
-                    <div id="container-images-service"></div>
-                    <!--<div id="box-decor-4"></div>-->
-                    <figure class="servImage-box servImage-box-1">
-                        <img class="servImages" src="images/consulting.jpg">
-                    </figure>
-                    <!--<div id="box-decor-5"></div>-->
-                    <figure class="servImage-box servImage-box-2">
-                        <img class="servImages" src="images/moving.jpg">
-                    </figure>
-                    <!--<div id="box-decor-6"></div>-->
-                    <figure class="servImage-box servImage-box-3">
-                        <img class="servImages" src="images/design2.jpg">
-                    </figure>
+                <p>We'll be there with you throughout the whole process!</p>
+                <button id="button-appointment">Book an appointment</button>
+           </section>
+           <section class="container-projects">
+                <h2 id="title-project-mobile">Projects</h2>
+                <h2 id="title-project-desktop">Here are some of our projects!</h2>
+                <div id="line-project"></div>
+                <img id="project-image" src="images/project-1.jpg">
+                <div id="image-overlay">
+                    <p id="overlay-text">Warm & Cozy Vibe</p>
                 </div>
-            </section>
-            <section id="projects">
-                <div class="project-text">
-                    <h2>PROJECTS</h2>
+                <img id="project-image" src="images/project-2.jpg">
+                <div id="image-overlay">
+                    <p id="overlay-text">Modern-Industrial</p>
                 </div>
-                <div class="container-projects">
-                    <div class="project project-1">
-                        <img class="project-images" src="images/project-1.jpg">
-                        <div class="project-title">Warm & Cozy Vibe</div>
-                    </div> 
-                    <div class="project project-2">
-                        <img class="project-images" src="images/project-2.jpg">
-                        <div class="project-title">Modern-Industrial</div>
-                    </div>
-                    <div class="project project-3">
-                        <img class="project-images" src="images/project-3.jpg">
-                        <div class="project-title">Vintage-Rustic</div>
-                    </div>
-                    <div class="project project-4">
-                        <img class="project-images" src="images/project-4.jpg">
-                        <div class="project-title">Earthy-Homey Look</div>
-                    </div>
+                <img id="project-image" src="images/project-3.jpg">
+                <div id="image-overlay">
+                    <p id="overlay-text">Vintage-Rustic</p>
                 </div>
-            </section>
-        </main>
-        <footer id="footer">
-            <div id="form">
-                <h2>Write to us!</h2>
-                <form action="https://www.freecodecamp.com/email-submit">
-                    <label class="label name-label">Name:</label><br><input type="text" class="input-text"
-                    placeholder="Your name here please." required><br>
-                    <label class="label email-label">Email:</label><br><input type="email" class="input-text"
-                    placeholder="Your email please" required><br>
-                    <label class="label message-label">Message:</label><textarea id="message" rows="10" cols="80"
-                    placeholder="What do you want to say?"></textarea><br>
-                    <input  id="submit" type="submit" value="SUBMIT">
-                </form>
-            </div>
-            <div id="contact">
-                <h2>Contact Us</h2>
-                <p>Tel: +12 245-78-90</p>
-                <p>Email: scandinteriors@email.com</p>
-                <p>&copy; ScandInteriors 2020</p>
-            </div>
-        </footer>
-
-        <script>
-            var imageIndex = 0;
-            carousel();
-
-            function carousel() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-
-                for(i=0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                imageIndex++;
-                if (imageIndex > x.length) {imageIndex = 1}
-                x[imageIndex-1].style.display = "block";
-                setTimeout(carousel, 2500);
-            }
-        </script>
-
+                <img id="project-image" src="images/design3.jpg">
+                <div id="image-overlay">
+                    <p id="overlay-text">Contemporary</p>
+                </div>
+                <p id="project-text">Let's start building your dream!</p>
+                <button id="button-appointment">Book an appointment</button>
+           </section>
+           <section class="contact">
+               <div id="contact-left">
+                   <label id="label-name">Name:</label><br><input type="text" id="input-name">
+                   <label id="label-email">Email:</label><br><input type="email" id="input-email">
+                   <label id="label-message">Message:</label><br><textarea id="input-message" rows="10" cols="60"></textarea>
+               </div>
+               <div id="contact-right">
+                    <h2>Contact Us</h2>
+                    <a id="tel-link" href="tel:+12-123-4455">Call Us: +12-123-4455</a>
+                    <a id="email-link" href="mailto:scandinteriors@email.com">Email Us: scandinteriors@email.com</a>
+                    <p>&copy; ScandInteriors 2020</p>
+               </div>
+           </section>
+       </main>
     </body>
-
 </html>
