@@ -1,0 +1,144 @@
+@media screen and (min-width: 320px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        color: #707070;
+        margin: 0;
+        background-color: white;
+    }
+
+    #line-title {
+        border-bottom: 2px #ff4727 solid;
+    }
+    
+    #contact-nav {
+        display: none;
+    }
+
+    .container-hero,
+    .container-projects {
+        margin: 0 2em;
+    }
+
+    button {
+        position: absolute;
+        background-color: #ff4727;
+        border-radius: 40px;
+        border: none;
+    }
+
+    #button-consult {
+        width: 23.4em;
+        height: 6em;
+        top: 58em;
+        right: 2.5em;
+        padding: 0;
+    }
+
+   
+    #container-hero-image {
+        width: 20em;
+    }
+
+    #hero-image {
+        width: 100%;
+        margin-top: -5em;
+    }
+
+    .container-service {
+        background-color: rgba(224, 206, 186, .3);
+        margin-top: 6.6em;
+        height: 128.25em;
+    }
+
+    .service-image {
+        width: 15em;
+        margin-right: 4em;
+    }
+
+    #container-consult {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 4.8em;
+    }
+
+    #container-deliver {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10.2em;
+    }
+
+    #container-support {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10.2em;
+    }
+
+    #button-appointment {
+        width: 51em;
+        height: 10.44em;
+        margin-left: 11em;
+        margin-right: 15em;
+    }
+
+    #project-image {
+        width: 100%;
+    }
+
+
+    /** Typography **/
+    #title-header {
+        font-size: 5em;
+        font-weight: 500;
+        padding-left: .2em;
+        padding-right: .2em;
+    }
+
+    #hero-text {
+        font-size: 7em;
+        font-weight: 300;
+        border: 1px blue solid;
+        margin-top: .5em;
+    }
+
+    #consult-label {
+        font-size: 2em;
+        font-weight: 600;
+        color: white;
+    }
+
+    #service-text {
+        font-size: 4.1em;
+        margin: 0;
+    }
+
+    .deliver-text {
+        width: 5em;
+    }
+
+    .support-text {
+        width: 5em;
+    }
+
+    .consult-text {
+        width: 5em;
+    }
+
+    #main-service-text {
+        font-size: 5.4em;
+        text-align: center;
+        width: 800px;
+        margin: 2.5em auto;
+    }
+
+    #appointment-label {
+        font-size: 4.2em;
+        color: white;
+    }
+}

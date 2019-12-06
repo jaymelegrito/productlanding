@@ -5,7 +5,8 @@
     </head>
     <body>
        <header>
-           <h1>ScandInteriors</h1>
+           <h1 id="title-header">ScandInteriors</h1>
+           <div id="line-title"></div>
            <nav>
                <a id="contact-nav" href="#contact">Contact Us</a>
            </nav>
@@ -13,26 +14,24 @@
        <main>
            <section class="container-hero">
                 <p id="hero-text">Let's build your dream Scandinavian home!</p>
-                <button id="button-consult" type="button">Free Consultation</button>
-                <div id="container-hero-image">
-                    <img src="images/design3.jpg" alt="scandinavian style interior with plants and wood flooring">
-                </div>
+                <button id="button-consult" type="button"><label id="consult-label">Free Consultation!</label></button>
+                <img id="hero-image" src="images/design3.jpg" alt="scandinavian style interior with plants and wood flooring">
            </section>
            <section class="container-service">
                 <div id="container-consult">
-                    <img id="service-text" src="images/consult.png" alt="consulting icon">
-                    <p id="service-text">Consultation</p>
+                    <img class="service-image consult-img" src="images/consult.png" alt="consulting icon">
+                    <p class="consult-text" id="service-text">Consultation</p>
                 </div>
                 <div id="container-deliver">
-                    <img id="service-image" src="images/shipped.png" alt="shipping icon">
-                    <p id="service-text">Delivery & Installation</p>
+                    <img class="service-image ship-img" src="images/shipped.png" alt="shipping icon">
+                    <p class="deliver-text" id="service-text">Delivery & Installation</p>
                 </div>
                 <div id="container-support">
-                    <img id="service-image" src="images/support.png" alt="support icon">
-                    <p id="service-text">After Sales Support</p>
+                    <img class="service-image support-img" src="images/support.png" alt="support icon">
+                    <p class="support-text" id="service-text">After Sales Support</p>
                 </div>
-                <p>We'll be there with you throughout the whole process!</p>
-                <button id="button-appointment">Book an appointment</button>
+                <p id="main-service-text">We'll be there with you throughout the whole process!</p>
+                <button id="button-appointment"><label id="appointment-label">Book an appointment</label></button>
            </section>
            <section class="container-projects">
                 <h2 id="title-project-mobile">Projects</h2>
