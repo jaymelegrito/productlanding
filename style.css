@@ -24,13 +24,13 @@
     }
 
     button {
-        position: absolute;
         background-color: #ff4727;
         border-radius: 40px;
         border: none;
     }
 
     #button-consult {
+        position: absolute;
         width: 23.4em;
         height: 6em;
         top: 58em;
@@ -80,14 +80,78 @@
         padding-top: 10.2em;
     }
 
+    #container-btnappt {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        top: 212em;
+        
+    }
+
     #button-appointment {
         width: 51em;
         height: 10.44em;
-        margin-left: 11em;
-        margin-right: 15em;
+    }
+
+    #container-title-proj {
+        border-right: 1px #ff4727 solid;
+        border-left: 1px #ff4727 solid;
+        width: 40em;
+        margin: 0 auto;
+    }
+
+    #container-proj-img {
+        width: 90%;
+        margin: 0 auto;
     }
 
     #project-image {
+        width: 100%;
+        display: block;
+        border: 6px #ff4727 solid;
+    }
+
+    #container-image {
+        position: relative;
+        margin-bottom: .618em;
+    }
+
+    #overlay-text {
+        position: absolute;
+        bottom: 0;
+        background: black;
+        background: rgba(0,0,0,0.5);
+        height: 2em;
+        width: 99%;
+        padding-top: .2em;
+        text-align: center;
+        color: white;
+        right: .0640em;
+        bottom: .0625em;
+
+    }
+
+
+    #container-btnproj {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10.17em;
+    }
+
+    #contact-left {
+        display: none;
+    }
+
+    #contact-right {
+        height: 18em;
+        background-color: rgba(224, 206, 186, .3);
+        margin-top: 1.5em;
+    }
+
+    .container-contact-text {
+        margin-top: 2em;
+        position: absolute;
         width: 100%;
     }
 
@@ -103,7 +167,6 @@
     #hero-text {
         font-size: 7em;
         font-weight: 300;
-        border: 1px blue solid;
         margin-top: .5em;
     }
 
@@ -140,5 +203,32 @@
     #appointment-label {
         font-size: 4.2em;
         color: white;
+    }
+
+    #title-project {
+        font-size: 5.4em;
+        text-align: center;
+    }
+
+    #overlay-text {
+        font-size: 4.68em;
+    }
+    
+    #project-text {
+        font-size: 5.4em;
+        width: 800px;
+        margin: 1em auto;
+        text-align: center;
+    }
+    
+    #contact-right {
+        font-size: 2.25em;
+        text-align: center;
+    }
+
+    #tel-link,
+    #email-link {
+        text-decoration: none;
+        color: #707070;
     }
 }
